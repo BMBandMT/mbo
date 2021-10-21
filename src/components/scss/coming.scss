@@ -1,0 +1,98 @@
+body{
+    background-image:url(../../images/mbo-background.png);
+    background-size:cover;
+    font-family: "Myriad Pro";
+}
+.container{
+    max-width:1280px;
+    margin:0 auto;
+    height: 100vh;
+    min-height: calc(100vh);
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.coming-top{
+    width:100%;
+    padding-top:80px;
+    .coming-top-links{
+        width:100%;
+        display:flex;
+        align-items:center;
+        color:white;
+        font-size:22px;
+        .coming-engage{
+            margin-right:22px;
+        }
+    }
+    .dot{
+width: 9px;
+height: 9px;
+background: #F58B35 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-right:22px;
+border-radius:50%;
+    }
+}
+.coming-mid{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    img.logo{
+        width:212px;
+        height:auto;
+    }
+    img.mbo-words{
+        width:327px;
+        height:auto;
+    }
+    .coming-soon{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .coming-soon-text{
+        font-size:28px;
+        color:white;
+        margin:0px 10px;
+    }
+    .dot{
+        width: 9px;
+        height: 9px;
+        background: #F58B35 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-radius:50%;
+            }
+}
+.coming-bottom{
+text-align:right;
+display:flex;
+align-items:center;
+justify-content: right;
+img{
+    margin-left:15px;
+    opacity:0.5;
+}
+.forbes{
+    width:122px;
+    height:auto;
+}
+.bizj{
+    width:134px;
+    height:auto;
+}
+.fastcompany{
+    width:144px;
+    height:auto;
+}
+.newsweek{
+    width:130px;
+    height:auto;
+}
+.rollingstones{
+    width:163px;
+    height:auto;
+}
+}
