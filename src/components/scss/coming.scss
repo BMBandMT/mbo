@@ -1,8 +1,12 @@
 body{
     background-image:url(../../images/mbo-background.png);
     background-size:cover;
-    font-family: "Myriad Pro";
+    background-color:#216180;
+    @media only screen and (max-width: 900px){
+        background-image:none;
+    }
 }
+
 .container{
     max-width:1280px;
     margin:0 auto;
@@ -11,18 +15,30 @@ body{
     display:flex;
     flex-direction:column;
     justify-content: space-between;
+    padding:25px 25px;
 }
 .coming-top{
     width:100%;
-    padding-top:80px;
+    padding-top:55px;
+    @media only screen and (max-width: 900px){
+        padding-top:0px;
+    }
     .coming-top-links{
         width:100%;
         display:flex;
         align-items:center;
         color:white;
         font-size:22px;
+        text-align:center;
+        @media only screen and (max-width: 900px){
+            justify-content: center;
+            flex-direction:column;
+        }
         .coming-engage{
             margin-right:22px;
+            @media only screen and (max-width: 900px){
+margin-right:0px;
+            }
         }
     }
     .dot{
@@ -32,6 +48,11 @@ background: #F58B35 0% 0% no-repeat padding-box;
 opacity: 1;
 margin-right:22px;
 border-radius:50%;
+@media only screen and (max-width: 900px){
+margin-right:0px;
+margin-top:10px;
+margin-bottom:10px;
+}
     }
 }
 .coming-mid{
@@ -43,10 +64,19 @@ border-radius:50%;
     img.logo{
         width:212px;
         height:auto;
+        @media only screen and (max-width: 900px){
+            width:152px;
+            height:auto;
+        }
     }
     img.mbo-words{
         width:327px;
         height:auto;
+        margin:20px 0px 30px 0px;
+        @media only screen and (max-width: 900px){
+            width:267px;
+            height:auto;
+        }
     }
     .coming-soon{
         display:flex;
@@ -67,13 +97,17 @@ border-radius:50%;
             }
 }
 .coming-bottom{
-text-align:right;
 display:flex;
 align-items:center;
 justify-content: right;
+flex-wrap:wrap;
+@media only screen and (max-width: 900px){
+    justify-content: center;
+}
 img{
     margin-left:15px;
     opacity:0.5;
+    margin-bottom:10px;
 }
 .forbes{
     width:122px;
