@@ -13,7 +13,6 @@ import Forbes from "../images/logos/forbes.png"
 import FastCompany from "../images/logos/fastcompany.png"
 import Bizj from "../images/logos/bizj.png"
 
-
 const IndexPage = () => (
   <div className="container">
     <div className="coming-top">
@@ -23,24 +22,21 @@ const IndexPage = () => (
         <div className="coming-skyrocket">SKYROCKET YOUR BRAND</div>
       </div>
     </div>
-      <div className="coming-mid">
-        <img className="logo" src={LogoImage} />
-        <img className="mbo-words" src={MboWords} />
-        <div className="coming-soon">
+    <div className="coming-mid">
+      <img className="logo" src={LogoImage} />
+      <img className="mbo-words" src={MboWords} />
+      <div className="coming-soon">
         <div className="dot"></div>
         <div className="coming-soon-text">COMING SOON</div>
         <div className="dot"></div>
-        </div>
-      </div>
-      <div className="coming-bottom">
-        <img className="forbes" src={Forbes} />
-        <img className="bizj" src={Bizj} />
-        <img className="fastcompany" src={FastCompany} />
-        <img className="newsweek" src={Newsweek} />
-        <img className="rollingstones" src={RollingStones} />
-
       </div>
     </div>
+    <div className="coming-bottom">
+      <div className="coming-bottom-text">
+        THE WORLD'S MOST POWERFUL PUBLICATIONS
+      </div>
+    </div>
+  </div>
 )
 
 export default IndexPage
