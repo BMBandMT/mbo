@@ -27,7 +27,7 @@ const IndexPage = () => (
       <img className="mbo-words" src={MboWords} />
       <div className="coming-soon">
         <div className="dot"></div>
-        <div className="coming-soon-text">COMING SOON</div>
+        <div className="coming-soon-text">AT CAPACITY: Please Revert Back to Q3 2023</div>
         <div className="dot"></div>
       </div>
     </div>
