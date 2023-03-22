@@ -17,7 +17,7 @@ const IndexPage = () => (
   <div className="container">
     <div className="coming-top">
       <div className="coming-top-links">
-        <div className="coming-engage">ENGAGE YOUR</div>
+        <div className="coming-engage">ENGAGE YOUR AUDIENCE</div>
         <div className="dot"></div>
         <div className="coming-skyrocket">SKYROCKET YOUR BRAND</div>
       </div>
